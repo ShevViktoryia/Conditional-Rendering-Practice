@@ -6,7 +6,7 @@ let userIsRegistered = false;
 const App = () => {
   return (
     <div className="container">
-      <Form />
+      <Form isRegistered={userIsRegistered} />
     </div>
   );
 };
